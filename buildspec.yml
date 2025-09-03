@@ -17,6 +17,7 @@ phases:
       - echo "Listing all files:"
       - find . -type f
 
-  artifacts:
-    files:
-      - output/**/*
+artifacts:
+  files:
+    - output/**/*
+

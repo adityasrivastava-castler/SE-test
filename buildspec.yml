@@ -11,3 +11,12 @@ phases:
     commands:
       #- npm run start
       - echo "Build completed successfully!"
+
+  post_build:
+    commands:
+      - echo "Listing all files:"
+      - find . -type f
+
+  artifacts:
+    files:
+      - output/**/*

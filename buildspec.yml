@@ -11,3 +11,7 @@ phases:
     commands:
       #- npm run start
       - echo "Build completed successfully!"
+
+artifacts:
+  files:
+    - '**/*'
